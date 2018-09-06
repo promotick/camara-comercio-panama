@@ -7060,3 +7060,20 @@ Table of contents
 #menu input:checked ~ ul {
 	display: block;
 }
+
+footer {
+	background-color: #ed1c24;
+	padding: 15px;
+}
+
+footer a {
+	color: #fff;
+	font-weight: 600;
+	text-decoration: underline!important;
+}
+
+footer p{
+	color: #fff!important;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
