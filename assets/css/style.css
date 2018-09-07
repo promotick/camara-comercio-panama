@@ -7092,3 +7092,13 @@ footer p {
 .pl-15 {
 	padding-left: 0;
 }
+
+.ml-10 {
+	margin-left: 20px;
+}
+@media(max-width:425px){
+	.login-bg{
+		background: url("../img/banner/bg-login-xs.png") no-repeat;
+		    background-position: top center;
+	}
+}
