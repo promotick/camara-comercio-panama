@@ -7073,8 +7073,22 @@ footer a {
 	line-height: 30px;
 }
 
-footer p{
+footer p {
 	color: #fff!important;
 	font-weight: 600;
 	margin-bottom: 10px;
+}
+
+.p-0 {
+	padding: 0;
+}
+
+@media(min-width:760px)and (max-width:990px) {
+	.pl-15 {
+		padding-left: 15px!important;
+	}
+}
+
+.pl-15 {
+	padding-left: 0;
 }
