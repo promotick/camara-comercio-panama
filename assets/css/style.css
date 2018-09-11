@@ -4888,11 +4888,6 @@ comments-list
 	margin-top: 0;
 }
 
-.login-bg {
-	background: url("../img/banner/bg-login.png") no-repeat;
-	background-position: top center;
-}
-
 .login-parallax {
 	background-image: url("../img/banner/bg-login.png");
 	background-repeat: no-repeat;
@@ -4983,10 +4978,6 @@ comments-list
 
 .border-less-input input {
 	border: none;
-}
-
-.login-bg-input input {
-	background: #eceaea;
 }
 
 .contact-comments .col-md-6,
@@ -7096,9 +7087,27 @@ footer p {
 .ml-10 {
 	margin-left: 20px;
 }
-@media(max-width:425px){
-	.login-bg{
+
+.login-bg {
+	background: url(../img/banner/bg-login.png);
+	width: 521px;
+	height: 543px;
+	margin: 5% auto 0 auto
+}
+
+.login-body {
+	width: 260px;
+	margin-left: 90px;
+	padding: 25px
+}
+
+@media(max-width:520px) {
+	.login-bg {
 		background: url("../img/banner/bg-login-xs.png") no-repeat;
-		    background-position: top center;
+		width: 262px;
 	}
+	.login-body {
+		margin-left: 0px;
+	}
+
 }
