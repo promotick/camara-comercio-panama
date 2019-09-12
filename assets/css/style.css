@@ -1191,10 +1191,10 @@ pre {
 }
 
 @media (max-width: 768px) {
-
-	.slider-full-width img {
-		height: 338px;
+	.slides .caption {
+		bottom: 20px;
 	}
+
 	.home {
 		margin-top: 0;
 	}
@@ -7110,4 +7110,29 @@ footer p {
 		margin-left: 0px;
 	}
 
+}
+
+.banner1 {
+	background: url(../img/banner/banner1.png);
+	background-position: center;
+}
+
+.banner2 {
+	background: url(../img/banner/banner2.jpg);
+	background-position: center;
+}
+
+@media (max-width:768px) {
+	.banner1 {
+		background: url(../img/banner/banner1R.png);
+		background-repeat: no-repeat!important;
+		background-position: center top!important;
+		height: 400px!important;
+	}
+	.banner2 {
+		background: url(../img/banner/banner2R.jpg);
+		background-repeat: no-repeat!important;
+		background-position: center top!important;
+		height: 400px!important;
+	}
 }
