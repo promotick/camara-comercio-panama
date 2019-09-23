@@ -7112,8 +7112,12 @@ footer p {
 
 }
 
+.white {
+	color: #fff;
+}
+
 .banner1 {
-	background: url(../img/banner/banner1.png);
+	background: url(../img/banner/home2.png);
 	background-position: center;
 }
 
